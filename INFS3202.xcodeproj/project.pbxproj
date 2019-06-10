@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791ACC4120B501450084092C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791ACC4020B501450084092C /* AccountViewController.swift */; };
+		7952365D20B21F2900BD4EF2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952365C20B21F2900BD4EF2 /* Request.swift */; };
+		7952366120B22B9C00BD4EF2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952366020B22B9C00BD4EF2 /* CollectionViewController.swift */; };
+		7952366320B2577300BD4EF2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952366220B2577300BD4EF2 /* CollectionViewCell.swift */; };
+		7952366520B29D1A00BD4EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7952366420B29D1A00BD4EF2 /* Assets.xcassets */; };
 		797C121F20A645A800968CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C121E20A645A800968CC2 /* AppDelegate.swift */; };
-		797C122120A645A800968CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C122020A645A800968CC2 /* ViewController.swift */; };
+		797C122120A645A800968CC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C122020A645A800968CC2 /* LoginViewController.swift */; };
 		797C122420A645A800968CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C122220A645A800968CC2 /* Main.storyboard */; };
-		797C122620A645A900968CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797C122520A645A900968CC2 /* Assets.xcassets */; };
 		797C122920A645A900968CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797C122720A645A900968CC2 /* LaunchScreen.storyboard */; };
 		797C123420A645AA00968CC2 /* INFS3202Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C123320A645AA00968CC2 /* INFS3202Tests.swift */; };
 		797C123F20A645AA00968CC2 /* INFS3202UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797C123E20A645AA00968CC2 /* INFS3202UITests.swift */; };
+		79CC39B220B6378E00AFE8C5 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CC39B120B6378E00AFE8C5 /* MovieViewController.swift */; };
+		79E45E5520A68D5600F12528 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E45E5420A68D5600F12528 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		791ACC4020B501450084092C /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		7952365C20B21F2900BD4EF2 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		7952366020B22B9C00BD4EF2 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		7952366220B2577300BD4EF2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7952366420B29D1A00BD4EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797C121B20A645A800968CC2 /* INFS3202.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INFS3202.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797C121E20A645A800968CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		797C122020A645A800968CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		797C122020A645A800968CC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		797C122320A645A800968CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		797C122520A645A900968CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797C122820A645A900968CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797C122A20A645AA00968CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		797C122F20A645AA00968CC2 /* INFS3202Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INFS3202Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +57,8 @@
 		797C123A20A645AA00968CC2 /* INFS3202UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INFS3202UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797C123E20A645AA00968CC2 /* INFS3202UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFS3202UITests.swift; sourceTree = "<group>"; };
 		797C124020A645AA00968CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CC39B120B6378E00AFE8C5 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		79E45E5420A68D5600F12528 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				797C121E20A645A800968CC2 /* AppDelegate.swift */,
-				797C122020A645A800968CC2 /* ViewController.swift */,
+				7952365C20B21F2900BD4EF2 /* Request.swift */,
+				797C122020A645A800968CC2 /* LoginViewController.swift */,
+				79E45E5420A68D5600F12528 /* RegisterViewController.swift */,
+				791ACC4020B501450084092C /* AccountViewController.swift */,
+				79CC39B120B6378E00AFE8C5 /* MovieViewController.swift */,
+				7952366020B22B9C00BD4EF2 /* CollectionViewController.swift */,
+				7952366220B2577300BD4EF2 /* CollectionViewCell.swift */,
 				797C122220A645A800968CC2 /* Main.storyboard */,
-				797C122520A645A900968CC2 /* Assets.xcassets */,
+				7952366420B29D1A00BD4EF2 /* Assets.xcassets */,
 				797C122720A645A900968CC2 /* LaunchScreen.storyboard */,
 				797C122A20A645AA00968CC2 /* Info.plist */,
 			);
@@ -230,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				797C122920A645A900968CC2 /* LaunchScreen.storyboard in Resources */,
-				797C122620A645A900968CC2 /* Assets.xcassets in Resources */,
+				7952366520B29D1A00BD4EF2 /* Assets.xcassets in Resources */,
 				797C122420A645A800968CC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797C122120A645A800968CC2 /* ViewController.swift in Sources */,
+				7952366120B22B9C00BD4EF2 /* CollectionViewController.swift in Sources */,
+				79E45E5520A68D5600F12528 /* RegisterViewController.swift in Sources */,
+				791ACC4120B501450084092C /* AccountViewController.swift in Sources */,
+				79CC39B220B6378E00AFE8C5 /* MovieViewController.swift in Sources */,
+				7952366320B2577300BD4EF2 /* CollectionViewCell.swift in Sources */,
+				7952365D20B21F2900BD4EF2 /* Request.swift in Sources */,
+				797C122120A645A800968CC2 /* LoginViewController.swift in Sources */,
 				797C121F20A645A800968CC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63WK2PDALP;
 				INFOPLIST_FILE = INFS3202/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63WK2PDALP;
 				INFOPLIST_FILE = INFS3202/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
